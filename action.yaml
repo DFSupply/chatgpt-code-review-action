@@ -24,7 +24,7 @@ inputs:
     type: int
   PROMPT_TEMPLATE:
     description: 'The template for the FULL_REVIEW_COMMENT prompt.'
-    default: 'Please analyze the pull request''s code and inform me whether it requires optimization, and provide an explanation for your decision:
+    default: 'Below is a code patch for a pull request, please do a brief review of the code. If there is a bug, security risk, or improvement that you think so be made please let me know and provide an explanation for your decision:
 
 
 \`\`\`
