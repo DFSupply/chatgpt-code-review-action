@@ -24,7 +24,7 @@ inputs:
     type: int
   PROMPT_TEMPLATE:
     description: 'The template for the FULL_REVIEW_COMMENT prompt.'
-    default: 'Below is a diff for a pull request, please do a brief review of the code. Do not explain what a diff file is, only review the code changes. If there is a bug, security risk, or improvement that you think so be made please let me know and provide an explanation for your decision:
+    default: 'Below is a diff for a code pull request, please do a brief review of the code. Do not explain what a diff file is, only review the code changes. Explain in detail what changes this will make. If there is a bug, security risk, or improvement that you think so be made please let me know and provide an explanation for your decision:
 
 
 \`\`\`
